@@ -1,6 +1,6 @@
 {
   "name": "koa-session-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple session middleware for Koa. Defaults to cookie-based/token-based sessions and supports external stores.",
   "main": "./index.js",
   "scripts": {
