@@ -1,0 +1,33 @@
+{
+  "name": "koa-session-auth",
+  "version": "1.0.0",
+  "description": "Simple session middleware for Koa. Defaults to cookie-based/token-based sessions and supports external stores.",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoDotDotDot/koa-session-auth.git"
+  },
+  "keywords": [
+    "koa",
+    "middleware",
+    "session",
+    "cookie",
+    "token",
+    "header"
+  ],
+  "author": "GoDotDotDot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GoDotDotDot/koa-session-auth/issues"
+  },
+  "homepage": "https://github.com/GoDotDotDot/koa-session-auth#readme",
+  "dependencies": {
+    "crc": "^3.8.0",
+    "is-type-of": "^1.2.0",
+    "koa": "^2.5.3",
+    "uid-safe": "^2.1.5"
+  }
+}
