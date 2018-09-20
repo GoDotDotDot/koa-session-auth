@@ -1,6 +1,6 @@
 # koa-session-auth
 
-[![npm version](https://img.shields.io/npm/v/koa-session-auth.svg) ](https://www.npmjs.com/package/koa-session-auth) [![npm downloads](https://img.shields.io/npm/dt/koa-session-auth.svg)](https://npm-stat.com/charts.html?package=meteiot) [![Github All Releases](https://img.shields.io/github/downloads/godotdotdot/koa-session-auth/total.svg)](https://github.com/GoDotDotDot/MeteIOT/releases)
+[![npm version](https://img.shields.io/npm/v/koa-session-auth.svg) ](https://www.npmjs.com/package/koa-session-auth) [![npm downloads](https://img.shields.io/npm/dt/koa-session-auth.svg)](https://npm-stat.com/charts.html?package=koa-session-auth) [![Github All Releases](https://img.shields.io/github/downloads/godotdotdot/koa-session-auth/total.svg)](https://github.com/GoDotDotDot/koa-session-auth/releases)
 
 
 **This library is extends from [koa-session](https://github.com/koajs/session.).**
