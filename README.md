@@ -13,6 +13,7 @@ Requires Node 7.6 or greater for async/await support
 
 - [koa-session](https://github.com/koajs/session.) features
 - token-based/cookie-based sessions (can be used simultaneously)
+- custom your session id with options.genid
 
 ## Installation
 
@@ -45,6 +46,7 @@ const CONFIG = {
   signed: true, /** (boolean) signed or not (default true) */
   rolling: false, /** (boolean) Force a session identifier cookie to be set on every response. The expiration is reset to the original maxAge, resetting the expiration countdown. (default is false) */
   renew: false, /** (boolean) renew session when session is nearly expired, so we can always keep user logged in. (default is false)*/
+  genid: (ctx) => "your session id"
 };
 
 app.use(session(CONFIG, app));
